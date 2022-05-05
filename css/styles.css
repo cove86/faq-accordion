@@ -32,12 +32,23 @@ html {
   margin-bottom: 3rem;
 }
 
+.accordion-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .accordion-btn {
   background-color: #fff;
   border: none;
   text-align: left;
   margin-bottom: 1rem;
   padding-top: 1rem;
+}
+
+.icon-arrow {
+  width: 10px;
+  height: 7px;
 }
 
 .info {
