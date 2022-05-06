@@ -36,13 +36,16 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1.5rem;
+  cursor: pointer;
 }
 
 .accordion-btn {
   background-color: #fff;
+  text-decoration: none;
+  color: inherit;
   border: none;
   align-content: center;
-  padding-top: 1.5rem;
 }
 
 .icon-arrow {
@@ -59,6 +62,10 @@ html {
 .info-text {
   display: none;
   margin-top: 1rem;
+}
+
+.active {
+  display: block;
 }
 
 .attribution {
