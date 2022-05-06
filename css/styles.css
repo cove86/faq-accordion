@@ -68,6 +68,10 @@ html {
   display: block;
 }
 
+.rotate {
+  transform: rotate(180deg);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
