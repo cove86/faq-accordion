@@ -8,49 +8,52 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: hsl(240, 73%, 65%);
+}
+
 .card {
-  margin: 0 auto;
+  margin: 10rem auto;
   display: flex;
   justify-content: flex-end;
-  border: 1px solid red;
-
+  border-radius: 2rem;
+  background-color: #fff;
   position: relative;
 
   width: 80rem;
+}
+
+.img-container {
+  position: relative;
+  width: 40rem;
   overflow: hidden;
-  z-index: 0;
 }
 
 .bg-pattern {
-  width: 100%;
   position: absolute;
-
+  width: 200%;
   left: -46rem;
-  top: -25em;
+  top: -25rem;
 }
 
 .woman-img {
   position: absolute;
-  width: 50%;
+  width: 100%;
   left: -6rem;
   top: 5rem;
 }
 
 .box-img {
   position: absolute;
-
   left: -10rem;
   top: 15rem;
-
-  z-index: 1;
 }
 
 .accordion {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem;
+  padding: 5rem 4rem;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 1.5rem;
   color: hsl(237, 12%, 33%);
@@ -60,7 +63,7 @@ html {
 .faq-heading {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .accordion-question {
