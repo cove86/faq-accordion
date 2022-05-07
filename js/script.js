@@ -8,18 +8,21 @@ const infoEl = document.querySelectorAll('.info-text');
 accordion.forEach(btn =>
   btn.addEventListener('click', e => {
     const clicked = e.target.closest('.accordion-btn');
-
     const infoTextEl = clicked.parentElement.nextElementSibling.children[0];
     const arrow = clicked.nextElementSibling;
 
     if (!clicked) return;
 
-    infoEl.forEach(e => e.classList.remove('active'));
-    arrowIcon.forEach(e => e.classList.remove('rotate'));
-    accordion.forEach(e => (e.style.fontWeight = 'normal'));
-
-    infoTextEl.classList.add('active');
-    clicked.style.fontWeight = 'bold';
-    arrow.classList.add('rotate');
+    infoTextEl.classList.toggle('active');
+    if (
+      clicked.style.fontWeight === 'bold' &&
+      arrow.classList.contains('rotate')
+    ) {
+      arrow.classList.remove('rotate');
+      clicked.style.fontWeight = 'normal';
+    } else {
+      arrow.classList.add('rotate');
+      clicked.style.fontWeight = 'bold';
+    }
   })
 );
