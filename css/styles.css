@@ -10,8 +10,8 @@ html {
 
 .card {
   display: flex;
-  justify-content: center;
-  border: 1px solid red;
+  /* justify-content: center; */
+  /* border: 1px solid red; */
 }
 
 .accordion {
@@ -22,7 +22,7 @@ html {
   padding: 4rem;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 1.5rem;
-
+  color: hsl(237, 12%, 33%);
   width: 40rem;
 }
 
@@ -56,12 +56,13 @@ html {
 .info {
   font-size: 1.2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 .info-text {
   display: none;
   margin-top: 1rem;
+  color: hsl(240, 6%, 50%);
 }
 
 .active {
