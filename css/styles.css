@@ -9,7 +9,14 @@ html {
 }
 
 body {
-  background-color: hsl(240, 73%, 65%);
+  background-image: linear-gradient(
+    to top right,
+    hsl(240, 73%, 65%),
+    hsl(273, 75%, 66%)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .card {
@@ -21,6 +28,7 @@ body {
   position: relative;
 
   width: 80rem;
+  height: 45rem;
 }
 
 .img-container {
