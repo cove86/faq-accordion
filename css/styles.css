@@ -18,21 +18,31 @@ html {
 
   width: 80rem;
   overflow: hidden;
+  z-index: 0;
 }
 
 .bg-pattern {
   width: 100%;
   position: absolute;
 
-  left: -47rem;
-  top: -24rem;
+  left: -46rem;
+  top: -25em;
 }
 
 .woman-img {
   position: absolute;
   width: 50%;
-  left: -7rem;
-  top: 6rem;
+  left: -6rem;
+  top: 5rem;
+}
+
+.box-img {
+  position: absolute;
+
+  left: -10rem;
+  top: 15rem;
+
+  z-index: 1;
 }
 
 .accordion {
