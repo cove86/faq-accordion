@@ -9,9 +9,23 @@ html {
 }
 
 .card {
+  margin: 0 auto;
   display: flex;
-  /* justify-content: center; */
-  /* border: 1px solid red; */
+  justify-content: flex-end;
+  border: 1px solid red;
+
+  position: relative;
+
+  width: 80rem;
+  overflow: hidden;
+}
+
+.bg-pattern {
+  width: 100%;
+  position: absolute;
+
+  left: -50rem;
+  top: -25rem;
 }
 
 .accordion {
