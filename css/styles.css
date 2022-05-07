@@ -24,8 +24,15 @@ html {
   width: 100%;
   position: absolute;
 
-  left: -50rem;
-  top: -25rem;
+  left: -47rem;
+  top: -24rem;
+}
+
+.woman-img {
+  position: absolute;
+  width: 50%;
+  left: -7rem;
+  top: 6rem;
 }
 
 .accordion {
