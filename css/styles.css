@@ -44,11 +44,19 @@ body {
   top: -25rem;
 }
 
+.bg-pattern-mobile {
+  display: none;
+}
+
 .woman-img {
   position: absolute;
   width: 100%;
   left: -6rem;
   top: 5rem;
+}
+
+.woman-img-mobile {
+  display: none;
 }
 
 .box-img {
@@ -122,3 +130,52 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 800px) {
+  .card {
+    flex-direction: column;
+    width: 35rem;
+    height: 50rem;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .bg-pattern {
+    display: none;
+  }
+
+  .woman-img {
+    display: none;
+  }
+
+  .box-img {
+    display: none;
+  }
+
+  .bg-pattern-mobile {
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: 7rem;
+    width: 60%;
+  }
+
+  .woman-img-mobile {
+    display: block;
+    position: absolute;
+    width: 60%;
+    top: -9.5rem;
+    left: 7rem;
+  }
+
+  .accordion {
+    width: 35rem;
+  }
+
+  .faq-heading {
+    text-align: center;
+    padding-top: 3rem;
+  }
+} ;
