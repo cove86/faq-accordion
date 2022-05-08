@@ -132,9 +132,12 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
   .card {
     flex-direction: column;
-    width: 35rem;
+    width: 40rem;
     height: 50rem;
   }
 
@@ -171,7 +174,7 @@ body {
   }
 
   .accordion {
-    width: 35rem;
+    width: 40rem;
   }
 
   .faq-heading {
