@@ -28,11 +28,11 @@ Users should be able to:
 
 Desktop
 
-<img src="/images/desktop-screenshot.JPG" width="800" height="400">
+<img src="/images/desktop-screenshot.JPG" width="800" height="600">
 
 Mobile
 
-<img src="/images/mobile-screenshot.JPG" width="400" height="800">
+<img src="/images/mobile-screenshot.JPG" width="600" height="800">
 
 ### Links
 
