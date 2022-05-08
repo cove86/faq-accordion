@@ -37,7 +37,7 @@ Mobile
 ### Links
 
 - Solution URL: https://github.com/cove86/faq-accordion
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- https://faq-accordion-ash.netlify.app/#
 
 ## My process
 
